@@ -316,29 +316,11 @@ a {
 }
 
 .container {
-  width: 100%;
+  width: 1200px;
   margin: 0 auto;
   padding-left: 15px;
   padding-right: 15px;
   /* outline: 3px solid springgreen; */
-}
-
-@media screen and (min-width: 480px) {
-  .container {
-    width: 480px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  .container {
-    width: 720px;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  .container {
-    width: 1200px;
-  }
 }
 
 .logo {
@@ -572,13 +554,6 @@ a {
   text-transform: uppercase;
   margin-bottom: 30px;
   /* outline: 3px solid springgreen; */
-}
-
-@media screen and (max-width: 1200px) {
-  .hero__title {
-    font-size: 26px;
-    line-height: 1.61;
-  }
 }
 
 .hero__button {
@@ -939,7 +914,7 @@ a {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  width: 100%;
+  width: 270px;
   height: 120px;
   margin-bottom: 30px;
   background-color: var(--icon-bg-color);
@@ -972,8 +947,14 @@ a {
   margin-bottom: 16px;
 }
 
+.feature {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .feature__item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .visually-hidden {
@@ -1001,13 +982,6 @@ a {
   color: var(--title-text-color);
   text-align: center;
   margin-bottom: 50px;
-}
-
-@media screen and (max-width: 1200px) {
-  .section-title {
-    font-size: 28px;
-    line-height: 1.17;
-  }
 }
 
 .work__section {
@@ -1178,10 +1152,13 @@ a {
 
 .team {
   text-align: center;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
 }
 
 .team__item:not(:last-child) {
-  margin-bottom: 30px;
+  margin-right: 30px;
 }
 
 .team__section {
@@ -1263,6 +1240,7 @@ a {
 }
 
 .social {
+  display: block;
   margin-left: 70px;
   margin-right: 93px;
 }
@@ -1394,6 +1372,12 @@ a {
   fill: var(--accent-text-color);
 }
 
+.clients {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
 .clients__link {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -1423,6 +1407,10 @@ a {
 .clients__icon {
   width: 106px;
   height: 60px;
+}
+
+.clients__item:not(:last-child) {
+  margin-right: 30px;
 }
 
 .filter__button {
