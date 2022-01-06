@@ -1,25 +1,33 @@
-@import "./utils/normalize";
-@import "./utils/variables";
-@import "./utils/resset";
+@import './utils/vars';
+@import './utils/hidden';
+@import './utils/breakpoints';
 
-@import "./components/header";
-@import "./components/container";
-@import "./components/logo";
-@import "./components/nav";
-@import "./components/portfolio";
-@import "./components/hero";
-@import "./components/modal";
-@import "./components/form";
-@import "./components/send";
-@import "./components/feature";
-@import "./components/hidden";
-@import "./components/section";
-@import "./components/work";
-@import "./components/networks";
-@import "./components/team";
-@import "./components/footer";
-@import "./components/social";
-@import "./components/subscribe";
-@import "./components/client";
-@import "./components/filter";
-@import "./components/address";
+@import './base/body';
+@import './base/reset';
+
+@import './components/container';
+@import './components/section';
+@import './components/logo';
+@import './components/contact';
+@import './components/title';
+@import './components/subtitle';
+@import './components/social-list';
+@import './components/btn';
+@import './components/btn-close';
+@import './components/button-list';
+
+
+@import './layout/header';
+@import './layout/mob-menu';
+@import './layout/hero';
+@import './layout/benefit';
+@import './layout/work';
+@import './layout/team';
+@import './layout/clients';
+@import './layout/portfolio';
+@import './layout/footer';
+@import './layout/modal';
+
+
+
+
