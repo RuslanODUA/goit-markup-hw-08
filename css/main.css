@@ -1347,7 +1347,7 @@ button {
   }
 }
 
-@media screen and (max-width: 1199px) {
+@media screen and (max-width: 767px) {
   .footer__box {
     margin-bottom: 60px;
   }
@@ -1383,12 +1383,14 @@ button {
 @media screen and (max-width: 768px) {
   .footer__form {
     max-width: 450px;
+    margin-top: 60px;
   }
 }
 
 @media screen and (min-width: 768px) and (max-width: 1199px) {
   .footer__form {
     width: 450px;
+    margin-top: 60px;
   }
 }
 
