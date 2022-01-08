@@ -1339,14 +1339,6 @@ button {
   }
 }
 
-@media screen and (min-width: 1200px) {
-  .footer__container {
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
-  }
-}
-
 @media screen and (max-width: 767px) {
   .footer__box {
     margin-bottom: 60px;
@@ -1356,6 +1348,9 @@ button {
 @media screen and (min-width: 1200px) {
   .footer__box {
     margin-right: 70px;
+    -webkit-box-flex: 1;
+        -ms-flex-positive: 1;
+            flex-grow: 1;
   }
 }
 
